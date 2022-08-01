@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+</head>
+<body >
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>
+                    İsim
+                </th>
+                <th>
+                    Soyisim
+                </th>
+                <th>
+                    Yaş
+                </th>
+            </tr>
+            <tr>
+                <td>Mehmet</td>
+                <td rowspan="2">Mamuş</td>
+                <!-- //!bir alttaki Maan ile mamuşu birleştirebilirz 2 de kaç sütunun birleşmesini istiyorsak o sayıyı yazdığımız yer -->
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Kaan</td>
+                <!-- <td>Maan</td> -->
+                <td>03</td>
+            </tr>
+        </thead>
+        <tbody>
+            <td>Ali</td>
+            <td colspan="2">Veli</td> 
+            <!-- //!coldspan ile bir yandaki satıra yani 153e geçişi için kullanılır 2 ise kaç bölmeyi kapsamasını istediğimizin sayısal değeridir -->
+            <!-- <td>153</td> -->
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!-- tableler caption başlığı ile table içine th satır başlarını  ve stunları oluştururz td ler ile  de tablo içindeki başlıkların içeriklerini oluştururuz -->
